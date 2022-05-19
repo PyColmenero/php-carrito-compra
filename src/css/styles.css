@@ -1,0 +1,25 @@
+._muscle_decoration::before {
+
+    content: "";
+
+    height: 32px;
+    width: 32px;
+    margin-right: .5rem;
+
+    background-image: url("https://img.icons8.com/glyph-neue/32/000000/flex-biceps.png");
+    
+    display: inline-block;
+    transform: scaleX(-100%);
+}
+._muscle_decoration::after {
+
+    content: "";
+
+    height: 32px;
+    width: 32px;
+    margin-left: .5rem;
+
+    background-image: url("https://img.icons8.com/glyph-neue/32/000000/flex-biceps.png");
+
+    display: inline-block;
+}
